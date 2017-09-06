@@ -9,6 +9,22 @@
   <script src="js/script.js" defer></script>
 </head>
 <body>
+  <h1>JS Events and descendants</h1>
 
+  <section>
+    <p>If you put a "click" event listener on an element, what happens if the user clicks a child of that element? </p>
+  </section>
+
+  <div class="show-details">
+    <img src="img/forward-arrow.png" alt="Picture of a forward arrow">
+    <span>Show details</span>
+  </div>
+
+  <div class="details hidden">
+    <ul>
+      <li>a click event set on an element will fire if you click on a child of that element</li>
+      <li>If you put a click event listener on the div, and the user clicks on the img inside that div, then the event listener will still fire.</li>
+    </ul>
+  </div>
 </body>
 </html>
