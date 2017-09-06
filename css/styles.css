@@ -1,0 +1,27 @@
+body {
+  font-family: helvetica, sans-serif;
+}
+
+.show-details {
+  background-color: fuchsia;
+  border: 1px solid black;
+  border-radius: 3px;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  height: 2em;
+}
+
+.show-details img {
+  height: 50%;
+  padding: 5px;
+}
+
+.details li {
+  margin: 0.5em 0;
+}
+
+.hidden {
+  display: none;
+}
